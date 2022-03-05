@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./team.module.css";
 import { Col, Container, Row } from 'react-bootstrap';
-import teamOne from '../../assets/images/team/george.png';
-import teamTwo from '../../assets/images/team/Mohamed.png';
-import teamThree from '../../assets/images/team/Rome E.png';
+import teamTwo from '../../assets/images/team/george.png';
+import teamThree   from '../../assets/images/team/Mohamed.png';
+import teamOne from '../../assets/images/team/Rome E.png';
 import teamFour from '../../assets/images/team/SPPR.png';
 const Team = () => {
   return (

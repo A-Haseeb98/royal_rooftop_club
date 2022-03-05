@@ -5,11 +5,28 @@
   background-image: url("../../assets/images/Group 13@2x.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto 100%;
-    /* background: transparent url("../../assets/images/Group 13@2x.png") 0% 0%
-    no-repeat padding-box; */
-  height: 1261px;
+  background-size: contain;
+
+  height: 1331px;
 }
+@media screen and (max-width: 2100px) {
+  .collectionBg {
+
+    height: 1661px;
+  }
+
+
+}
+@media screen and (max-width: 1900px) {
+  .collectionBg {
+
+    height: 1330px;
+  }
+
+
+}
+
+
 .collectionInner h2 {
   font-size: 55px;
   background: -webkit-linear-gradient(90deg, #c51c23 0%, #ea5438 100%);

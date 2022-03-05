@@ -12,7 +12,6 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-
 import Accordion from "react-bootstrap/Accordion";
 
 
@@ -20,9 +19,9 @@ const GiveawayAndfaq = () => {
   const options = {
     items: 3,
     nav: true,
-    navText: [`<div class='nav-button owl-prev'><svg xmlns="http://www.w3.org/2000/svg" class="gg" viewBox="0 0 20 20" fill="currentColor">
+    navText: [`<div className='nav-button owl-prev'><svg xmlns="http://www.w3.org/2000/svg" className="gg" viewBox="0 0 20 20" fill="currentColor">
     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clip-rule="evenodd" />
-  </svg></div>`, `<div class='nav-button owl-next'><svg xmlns="http://www.w3.org/2000/svg" class="gg" viewBox="0 0 20 20" fill="currentColor">
+  </svg></div>`, `<div className='nav-button owl-next'><svg xmlns="http://www.w3.org/2000/svg" className="gg" viewBox="0 0 20 20" fill="currentColor">
       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
   </svg ></div > `],
     autoplay: true,
@@ -34,19 +33,6 @@ const GiveawayAndfaq = () => {
     center: true
   };
 
-  //  dots={false} loop margin={10} item={3} center={true}
-
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  // const settings = {
-  //   className: "center",
-  //   centerMode: true,
-  //   centerPadding: "1px",
-  //   infinite: true,
-  //  centerPadding: "60px",
-  //   slidesToShow: 3,
-  //   speed: 1000,
-  // };
-  // useEffect(() => {}, [settings]);
 
   return (
     <>
@@ -93,28 +79,28 @@ const GiveawayAndfaq = () => {
             <div className={styles.faqInner}>
 
               <OwlCarousel className='owl-theme owl-carousel' {...options}>
-                <div class='item'>
+                <div className='item'>
                   <img src={oculus} alt="" className={styles.img} />
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={gWagon} type="video/mp4" />
                   </video>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={tDubai} type="video/mp4" />
                   </video>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <img src={oculus} alt="" className={styles.img} />
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={gWagon} type="video/mp4" />
                   </video>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={tDubai} type="video/mp4" />
                   </video>
