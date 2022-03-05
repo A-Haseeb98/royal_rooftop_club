@@ -5,8 +5,8 @@
   background-image: url("../../assets/images/Group 13@2x.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
-  /* background: transparent url("../../assets/images/Group 13@2x.png") 0% 0%
+  background-size: auto 100%;
+    /* background: transparent url("../../assets/images/Group 13@2x.png") 0% 0%
     no-repeat padding-box; */
   height: 1261px;
 }
