@@ -1,0 +1,199 @@
+.giveawayAndfaq {
+  background-color: #29294d;
+  /* background-image: url("../../assets/images/Group 14@2x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+}
+.giveawayInner h2 {
+  font-size: 60px;
+  background: -webkit-linear-gradient(90deg, #c51c23 0%, #ea5438 100%);
+  background: linear-gradient(90deg, #c51c23 0%, #ea5438 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 900;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 50.94px;
+  font-family: "Maxwell SmCaps" !important;
+}
+.giveawayInner p {
+  text-align: center;
+  color: #ffffff;
+  font: normal normal 300 16px/26px Roboto;
+  letter-spacing: 0.4px;
+  padding-bottom: 176.05px;
+}
+.giveawayInner p:last-child {
+  padding-bottom: 50.05px;
+}
+.faq {
+  background-image: url("../../assets/images/Group 14@2x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 260.19px;
+}
+.faqInner {
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 205px;
+  /* margin-right: 20px; */
+}
+.img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+.img1 {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.faqHeader {
+  font-size: 60px;
+  background: -webkit-linear-gradient(90deg, #c51c23 0%, #ea5438 100%);
+  background: linear-gradient(90deg, #c51c23 0%, #ea5438 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 900;
+  font-family: "Maxwell SmCaps" !important;
+}
+@media screen and (max-width: 1400px) {
+  .faqHeader {
+    font-size: 65px;
+  }
+  .giveawayInner h2 {
+    font-size: 65px;
+  }
+  .giveawayInner p {
+    font-size: 16px;
+    padding-bottom: 150px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .faqHeader {
+    font-size: 45px;
+  }
+  .giveawayInner h2 {
+    font-size: 45px;
+  }
+  .giveawayInner p {
+    font-size: 16px;
+    padding-bottom: 150px;
+  }
+  .img {
+    margin: 0 auto;
+    width: 250px;
+    height: 418px;
+  }
+  .img1 {
+    margin: 0 auto;
+    width: 362px;
+    height: 418px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .faqHeader {
+    font-size: 40px;
+  }
+  .giveawayInner h2 {
+    font-size: 40px;
+    width: 100%;
+  }
+  .giveawayInner p {
+    font-size: 16px;
+    padding-bottom: 100px;
+  }
+  .img {
+    margin: 30px auto 0;
+    width: 192px;
+    height: 348px;
+    z-index: 999;
+  }
+  .img1 {
+    margin: 0 auto;
+    width: 193px;
+    height: 418px;
+    z-index: 998;
+  }
+  .faqInner {
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .faqHeader {
+    font-size: 35px;
+  }
+  .giveawayInner h2 {
+    font-size: 35px;
+  }
+  .giveawayInner p {
+    font-size: 16px;
+    padding-bottom: 88px;
+  }
+  .img1 {
+    margin: 0 auto;
+    width: 135px;
+    height: 393px;
+    z-index: 998;
+  }
+  .img {
+    margin: 83px auto 0;
+    width: 145px;
+    height: 236px;
+    z-index: 999;
+  }
+}
+@media screen and (max-width: 600px) {
+  .faqHeader {
+    font-size: 30px;
+  }
+  .giveawayInner h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  .giveawayInner p {
+    font-size: 13px;
+    padding-bottom: 56px;
+  }
+  .faq {
+    padding-bottom: 140px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .giveawayInner h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  .giveawayInner p {
+    font-size: 12px;
+    padding-bottom: 46px;
+  }
+  .faq {
+    padding-bottom: 130px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .faqHeader {
+    font-size: 25px;
+  }
+  .giveawayInner h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  .giveawayInner p {
+    font-size: 12px;
+    padding-bottom: 33px;
+  }
+  .faq {
+    padding-bottom: 110px;
+  }
+}
+.box{
+  background-color:red;
+  padding: 200px 0px;
+}

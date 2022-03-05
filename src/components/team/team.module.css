@@ -1,0 +1,106 @@
+
+.team{
+  background-color: #272748;
+  padding-top: 100px;
+}
+
+.teamSection{
+  background-color: #272748;
+  padding-top: 100px;
+}
+
+.team h2 {
+  font-size: 55px;
+  background: -webkit-linear-gradient(90deg, #c51c23 0%, #ea5438 100%);
+  background: linear-gradient(90deg, #c51c23 0%, #ea5438 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 56px;
+  font-family: "Maxwell SmCaps" !important;
+}
+.team p {
+  font-size: 18px;
+  color: white;
+  font: normal normal 500 16px/26px Roboto;
+  letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.teamHeading h1{
+  text-align: center;
+  font: normal normal normal 49px/59px Zen Dots;
+  letter-spacing: 6.03px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.teamImages{
+  text-align: center;
+}
+.teamImages img{
+  padding: 20px 0px;
+  text-align: center;
+  width: 100%;
+}
+@media screen and (max-width: 1400px) {
+  .team h2 {
+    font-size: 65px;
+  }
+  .team p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .team h2 {
+    font-size: 45px;
+  }
+  .team p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .team h2 {
+    font-size: 40px;
+  }
+  .team p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .team h2 {
+    font-size: 35px;
+  }
+  .team p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .team h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .team p {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .team h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .team p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .team h2 {
+    font-size: 25px;
+  }
+  .team p {
+    font-size: 12px;
+  }
+}
