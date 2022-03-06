@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <div className={styles.banner} id="pt">
       <div className={styles.bannerVid}>
-        <video autoPlay muted>
+        <video playsInline loop autoPlay='true' muted>
           <source src={bannerVid} type="video/mp4" />
         </video>
         <div className={styles.bannerContent}>

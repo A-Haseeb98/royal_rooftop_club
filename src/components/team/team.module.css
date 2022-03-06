@@ -70,6 +70,12 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .team{
+    margin-top: -1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: -1px;
+  }
   .team h2 {
     font-size: 35px;
   }
@@ -84,7 +90,7 @@
   }
   .team p {
     font-size: 13px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -94,7 +100,7 @@
   }
   .team p {
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 380px) {

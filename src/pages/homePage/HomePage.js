@@ -20,7 +20,6 @@ const HomePage = () => {
       <GiveawayAndfaq />
       <Team />
       <Partnership />
-
       <Development />
       <Footer />
     </>

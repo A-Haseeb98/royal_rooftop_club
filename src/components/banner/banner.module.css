@@ -4,6 +4,8 @@
 .bannerVid video {
   width: 100%;
   /* position: absolute; */
+    display: block;
+
 }
 .bannerVid:after {
   position: absolute;

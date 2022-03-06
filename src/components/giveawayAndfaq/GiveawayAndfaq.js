@@ -12,6 +12,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
+
 import Accordion from "react-bootstrap/Accordion";
 
 
@@ -19,9 +20,9 @@ const GiveawayAndfaq = () => {
   const options = {
     items: 3,
     nav: true,
-    navText: [`<div className='nav-button owl-prev'><svg xmlns="http://www.w3.org/2000/svg" className="gg" viewBox="0 0 20 20" fill="currentColor">
+    navText: [`<div class='nav-button owl-prev'><svg xmlns="http://www.w3.org/2000/svg" class="gg" viewBox="0 0 20 20" fill="currentColor">
     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clip-rule="evenodd" />
-  </svg></div>`, `<div className='nav-button owl-next'><svg xmlns="http://www.w3.org/2000/svg" className="gg" viewBox="0 0 20 20" fill="currentColor">
+  </svg></div>`, `<div class='nav-button owl-next'><svg xmlns="http://www.w3.org/2000/svg" class="gg" viewBox="0 0 20 20" fill="currentColor">
       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
   </svg ></div > `],
     autoplay: true,
@@ -33,6 +34,19 @@ const GiveawayAndfaq = () => {
     center: true
   };
 
+  //  dots={false} loop margin={10} item={3} center={true}
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  // const settings = {
+  //   className: "center",
+  //   centerMode: true,
+  //   centerPadding: "1px",
+  //   infinite: true,
+  //  centerPadding: "60px",
+  //   slidesToShow: 3,
+  //   speed: 1000,
+  // };
+  // useEffect(() => {}, [settings]);
 
   return (
     <>
@@ -41,7 +55,7 @@ const GiveawayAndfaq = () => {
         <div className={styles.giveaway}>
           <div className="container">
             <div className={styles.giveawayInner}>
-              <h2>ROYAL ROOFTOP CLUB NFTS <br/> AND METAVERSE PROJECT</h2>
+              <h2>ROYAL ROOFTOP CLUB NFTS <br /> AND METAVERSE PROJECT</h2>
               <p>
                 Artists and individuals that hold our NFTs are permitted to submit
                 their NFTs project idea to our team for deliberation; music
@@ -79,28 +93,28 @@ const GiveawayAndfaq = () => {
             <div className={styles.faqInner}>
 
               <OwlCarousel className='owl-theme owl-carousel' {...options}>
-                <div className='item'>
+                <div class='item'>
                   <img src={oculus} alt="" className={styles.img} />
                 </div>
-                <div className='item'>
+                <div class='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={gWagon} type="video/mp4" />
                   </video>
                 </div>
-                <div className='item'>
+                <div class='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={tDubai} type="video/mp4" />
                   </video>
                 </div>
-                <div className='item'>
+                <div class='item'>
                   <img src={oculus} alt="" className={styles.img} />
                 </div>
-                <div className='item'>
+                <div class='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={gWagon} type="video/mp4" />
                   </video>
                 </div>
-                <div className='item'>
+                <div class='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={tDubai} type="video/mp4" />
                   </video>
@@ -120,35 +134,26 @@ const GiveawayAndfaq = () => {
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>How do I ask for help?</Accordion.Header>
                   <Accordion.Body>
-                    Visit www.royalrooftopclub.com, Twitter or via Discord
+                    Discord help Open Ticket
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
                   <Accordion.Header>
                     How many Dubai Rich NFTs are there?
+
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                    2775 NFT's are there and 10 will be held back from sale
+
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
-                  <Accordion.Header>What is the mint price?</Accordion.Header>
+                  <Accordion.Header>What is the mint price?
+                  </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                    Whitelisted price: TBA
+                    <br />
+                    Public price: TBA
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
@@ -156,74 +161,44 @@ const GiveawayAndfaq = () => {
                     Where can I buy a Dubai Rich NFT?
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                    You will be able to mint a Dubai Rich NFT on our website when minting goes live. Using the link http://royalrooftopclub.com
+                    <br />
+                    <br />
+                    Getting on the whitelist will give you the possibility to mint up to (2) Dubai Rich NFT's before the public mint. In addition, you will be paying lower gas fees if you are whitelisted as compared to public minting.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="4">
                   <Accordion.Header>
-                    Why should I join the Dubai Rich Club whitelist?
+                    HOW DO I KNOW I WON A GIVEAWAY?
+
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                    Giveaways will be held in a Live format for transparency reasons. All Holders will be notified to tune in live for each giveaway.
+                    <br />
+                    <br />
+                    Winners will go through a verification process using their wallet address(s) submitted via Discord and snapshot followed by item activity check on Open Open Sea.
+                    <br />
+                    <br />
+                    Winners will then be contacted via discord to finalize details. NFT's of the winners will also be uniquely displayed on our website.
+                    <br />
+                      (NOTE) Wach wallet address can only win 1 Giveaway.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="5">
                   <Accordion.Header>
-                    How to I get whitelisted for early access?
+                    HOW DO I ENTER THE GIVEAWAYS
+
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                    Potential holders who will be minting from our collection will be directed via Discord to submit their wallet address(s) prior to mint. A snapshot of original holders will be archived after mint. collectors must hold and not sell if they want to participate in all 3 major Giveaways.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="6">
                   <Accordion.Header>
-                    How do I enter the giveaways?
+                    How do i get Whitelisted for early access?
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="7">
-                  <Accordion.Header>
-                    How do I know I won the giveaway?
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                    Whitelist spots will be given away in the discord, followed by some stipulated conditions.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
