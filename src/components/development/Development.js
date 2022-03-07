@@ -20,13 +20,7 @@ const Development = () => {
           We will be utilizing WebXR, a Mozilla-developed library that allows
           interaction with web-based VR.
         </p>
-        <p>
-          We use a tag to encircle our VR environment. By providing necessary
-          tags, we may employ numerous shapes in our scenario. So, while you can
-          move the camera by dragging the screen, you can’t use the VR device
-          just yet since an HTML file must be delivered as VR cannot run on a
-          static file.
-        </p>
+
         <br />
         <h6> Welcome aboard</h6>
       </div>

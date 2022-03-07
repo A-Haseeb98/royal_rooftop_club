@@ -12,7 +12,7 @@ const Footer = () => {
           <div className={styles.footerContent}>
             <p>© 2021 Royal Rooftop Club, ALL RIGHTS RESERVED.</p>
           </div>
-          <div>
+          <div className={styles.footerIconContainer} >
             <a
               href="https://discord.gg/3uxpCC4dZW"
               className={styles.footerIcon}
