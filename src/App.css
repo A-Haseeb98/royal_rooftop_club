@@ -2,6 +2,20 @@
   background: #181834;
   height: 100vh;  
 }
+
+.annnimation{
+  -webkit-animation: action 1s infinite  alternate;
+  animation: action 1s infinite  alternate;
+}
+@-webkit-keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(17px); }
+}
+@keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(17px); }
+}
+
 .accordion-flush .accordion-item .accordion-button {
   background: transparent;
   color: #fff;

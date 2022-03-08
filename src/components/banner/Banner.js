@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./banner.module.css";
 import bannerVid from "../../assets/images/Sequence 01_1.mp4";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 const Banner = () => {
   const scrollToAbout = () => {
     const anchor = document.querySelector("#about");
@@ -23,14 +24,14 @@ const Banner = () => {
           </p>
           <div className={styles.arrowDown}>
 
-            <Link
-              to="/"
+            <HashLink
+              to="/#about"
               onClick={scrollToAbout}
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
-            </Link>
+            </HashLink>
           </div>
         </div>
       </div>
