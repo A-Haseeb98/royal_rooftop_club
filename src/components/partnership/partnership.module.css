@@ -73,6 +73,7 @@
 @media screen and (max-width: 767px) {
   .partnership {
     padding: 50.86px 10px;
+    padding-bottom: 10px;
   }
   .partnershipInner h2 {
     font-size: 35px;
@@ -85,9 +86,7 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .partnership {
-    padding: 40.86px 5px;
-  }
+
   .partnershipInner h2 {
     font-size: 30px;
     margin-bottom: 25px;
@@ -102,9 +101,7 @@
   }
 }
 @media screen and (max-width: 480px) {
-  .partnership {
-    padding: 20.86px 0px;
-  }
+ 
   .partnershipInner h2 {
     font-size: 30px;
   }
@@ -116,9 +113,7 @@
   }
 }
 @media screen and (max-width: 380px) {
-  .partnership {
-    padding: 20.86px 0px;
-  }
+
   .partnershipInner h2 {
     font-size: 25px;
   }

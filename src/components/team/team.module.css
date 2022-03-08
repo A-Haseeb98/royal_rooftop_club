@@ -87,11 +87,17 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .teamSection{
+    background-color: #272748;
+    padding: 0;
+    padding-bottom: 50px;
+  }
   .team{
     margin-top: -1px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     margin-bottom: -1px;
+    
   }
   .team h2 {
     font-size: 35px;
@@ -102,7 +108,7 @@
 }
 @media screen and (max-width: 600px) {
   .team h2 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 40px;
   }
   .team p {
@@ -112,7 +118,7 @@
 }
 @media screen and (max-width: 480px) {
   .team h2 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 30px;
   }
   .team p {
@@ -122,7 +128,7 @@
 }
 @media screen and (max-width: 380px) {
   .team h2 {
-    font-size: 25px;
+    font-size: 35px;
   }
   .team p {
     font-size: 12px;

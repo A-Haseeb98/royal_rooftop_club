@@ -25,7 +25,7 @@ const GiveawayAndfaq = () => {
   </svg></div>`, `<div class='nav-button owl-next'><svg xmlns="http://www.w3.org/2000/svg" class="gg" viewBox="0 0 20 20" fill="currentColor">
       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
   </svg ></div > `],
-    autoplay: true,
+    autoplay: false,
     loop: true,
     dots: false,
     dotsEach: false,
@@ -34,7 +34,7 @@ const GiveawayAndfaq = () => {
     center: true
   };
 
-  
+
 
   return (
     <>
@@ -157,7 +157,7 @@ const GiveawayAndfaq = () => {
                     mint up to (2) Dubai rich NFT's before the public mint. In addition, you
                     will be paying lower mint fees if you are whitelisted as compared to
                     public minting
-                    s</Accordion.Body>
+                  </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="6">
                   <Accordion.Header>
@@ -194,7 +194,6 @@ const GiveawayAndfaq = () => {
                     (NOTE) Each wallet address can only win 1 Giveaway.
                   </Accordion.Body>
                 </Accordion.Item>
-
 
               </Accordion>
             </div>

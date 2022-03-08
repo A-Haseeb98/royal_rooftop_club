@@ -32,7 +32,8 @@
 
 .collectionInner{
   max-width: 1320px;
-  margin: auto
+  margin: auto;
+  padding: 0px 30px;
 
 }
 
@@ -153,7 +154,6 @@
   }
   .collectionInnerPara1 {
     font-size: 16px;
-    padding: 0px 50px;
   }
   .collectionInnerPara2 {
     font-size: 20px;
@@ -169,6 +169,7 @@
   }
 }
 @media screen and (max-width: 1200px) {
+ 
   .collectionInner h2 {
     font-size: 45px;
     margin-bottom: 80px;
@@ -224,6 +225,7 @@
   }
   .collectionInnerPara2 {
     font-size: 18px;
+    padding: 0 15px;
   }
   .collectionInnerPara3 {
     font-size: 24px;
@@ -293,7 +295,7 @@
     background-position: 55% 100%;
   }
   .collectionInner h2 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 50px;
   }
   .collectionInner h3 {
@@ -328,7 +330,7 @@
     background-position: 55% 100%;
   }
   .collectionInner h2 {
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
   .collectionInner h3 {

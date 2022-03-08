@@ -5,7 +5,7 @@ const Partnership = () => {
     <div id='pt' className={styles.partnership}>
       <div className="container">
         <div className={styles.partnershipInner}>
-          <h2>PARTNERSHIP & COLLABORATION</h2>
+          <h2>PARTNERSHIP &    COLLABORATION</h2>
           <p>
             Royal rooftop private club collaborates with artists, musicians, and
             entrepreneurs with NFTs or metaverse project idea. Our team of

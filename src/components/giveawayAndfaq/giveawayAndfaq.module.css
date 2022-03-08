@@ -33,7 +33,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-bottom: 260.19px;
+  padding-bottom: 100px;
 }
 .faqInner {
   text-align: center;
@@ -125,6 +125,9 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .giveawayInner p:last-child {
+    padding-bottom: 0.05px;
+  }
   .faqHeader {
     font-size: 35px;
   }
@@ -133,7 +136,7 @@
   }
   .giveawayInner p {
     font-size: 16px;
-    padding-bottom: 88px;
+    padding-bottom: 0px;
   }
   .img1 {
     margin: 0 auto;
@@ -150,7 +153,7 @@
 }
 @media screen and (max-width: 600px) {
   .faqHeader {
-    font-size: 30px;
+    font-size: 35px;
   }
   .giveawayInner h2 {
     font-size: 30px;
@@ -158,10 +161,10 @@
   }
   .giveawayInner p {
     font-size: 13px;
-    padding-bottom: 56px;
+    padding-bottom: 0px;
   }
   .faq {
-    padding-bottom: 140px;
+    padding-bottom: 0px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -171,15 +174,14 @@
   }
   .giveawayInner p {
     font-size: 12px;
-    padding-bottom: 46px;
   }
   .faq {
-    padding-bottom: 130px;
+    padding-bottom: 70px;
   }
 }
 @media screen and (max-width: 380px) {
   .faqHeader {
-    font-size: 25px;
+    font-size: 35px;
   }
   .giveawayInner h2 {
     font-size: 25px;
@@ -187,10 +189,10 @@
   }
   .giveawayInner p {
     font-size: 12px;
-    padding-bottom: 33px;
+    padding-bottom: 0px;
   }
   .faq {
-    padding-bottom: 110px;
+    padding-bottom: 70px;
   }
 }
 .box{

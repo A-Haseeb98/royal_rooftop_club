@@ -63,10 +63,12 @@
   font: normal normal 600 33px/40px Montserrat;
   letter-spacing: 0px;
 }
+
 .ul li {
   margin-bottom: 16px;
   font: normal normal normal 16px/21px Roboto;
   letter-spacing: 0px;
+
   color: #ffffff;
 }
 .phase2 {
@@ -378,14 +380,19 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .ul{
+    padding-left:15px ;
+  }
   .roadMapBg {
     background-position: 100% 200px;
     background-size: 100% 71%;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
   }
   .roadMapInner h2 {
-    padding-top: 170px;
+    padding-top: 10px;
     font-size: 35px;
-    margin-bottom: 74.94px;
+    margin-bottom: 40px;
   }
   .roadMapInnerWrapper:after {
     height: 1100px;
@@ -479,12 +486,11 @@
   .roadMapBg {
     background-position: 100% 200px;
     background-size: 100% 71%;
-    padding-bottom: 100px;
   }
   .roadMapInner h2 {
     padding-top: 100px;
-    font-size: 30px;
-    margin-bottom: 74.94px;
+    font-size: 35px;
+    margin-bottom: 40px;
   }
   .roadMapInnerWrapper:after {
     height: 997px;
@@ -594,9 +600,9 @@
     background-size: 122% 83%;
   }
   .roadMapInner h2 {
-    padding-top: 100px;
-    font-size: 30px;
-    margin-bottom: 74.94px;
+    padding-top: 00px;
+    font-size: 35px;
+    margin-bottom: 40px;
   }
   .roadMapInnerWrapper:after {
     height: 1053px;
@@ -696,16 +702,7 @@
     right: none;
     left: 4px;
     margin: 0 0;
-    height: 1080px;
-    top: 217px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .roadMapInnerWrapper:after{
-    right: none;
-    left: 4px;
-    margin: 0 0;
-    height: 1180px;
+    height: 1190px;
     top: 217px;
   }
 }
@@ -720,9 +717,9 @@
     background-size: 122% 83%;
   }
   .roadMapInner h2 {
-    padding-top: 100px;
-    font-size: 30px;
-    margin-bottom: 74.94px;
+    padding-top: 0px;
+    font-size: 35px;
+    margin-bottom: 40px;
   }
   .roadMapInnerWrapper:after {
     right: none;

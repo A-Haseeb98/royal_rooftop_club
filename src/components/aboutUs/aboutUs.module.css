@@ -84,7 +84,7 @@
 }
 @media screen and (max-width: 1000px) {
   .aboutUsInner {
-    padding: 140px 10px 80px;
+    padding: 100px 10px 80px;
   }
   .aboutUsInner h2 {
     font-size: 40px;
@@ -104,7 +104,7 @@
 }
 @media screen and (max-width: 767px) {
   .aboutUsInner {
-    padding: 120px 10px 80px;
+    padding: 200px 10px 30px !important;
   }
   .aboutUsInner h2 {
     font-size: 35px;
@@ -127,7 +127,7 @@
 }
 @media screen and (max-width: 600px) {
   .aboutUsInner {
-    padding: 160px 10px 80px;
+    padding: 60px 10px 30px;
   }
   .aboutUsInner h2 {
     font-size: 35px;
@@ -150,11 +150,9 @@
 }
 @media screen and (max-width: 480px) {
   .aboutUsInner {
-    padding: 183px 10px 34px;
+    padding: 60px 10px 30px;
   }
-  .aboutUsInner h2 {
-    font-size: 29px;
-  }
+
   .aboutUsWrappers {
     padding: 0 8px;
   }
@@ -178,11 +176,9 @@
 }
 @media screen and (max-width: 380px) {
   .aboutUsInner {
-    padding: 160px 10px 58px;
+    padding: 60px 10px 30px;
   }
-  .aboutUsInner h2 {
-    font-size: 26px;
-  }
+
   .aboutUsWrappers {
     padding: 0 8px;
   }

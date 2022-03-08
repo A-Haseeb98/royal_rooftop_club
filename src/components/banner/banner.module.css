@@ -113,11 +113,12 @@
 }
 @media screen and (max-width: 600px) {
   .bannerContent h1 {
-    font-size: 40px;
+    font-size: 38px !important;
+    width: 100%;
     width: 480px;
   }
   .bannerContent {
-    transform: translate(-50%, 116px);
+    transform: translate(-50%, 176px) !important;
     /* width: 66%; */
   }
   .bannerContent p {
