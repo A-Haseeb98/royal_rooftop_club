@@ -696,7 +696,16 @@
     right: none;
     left: 4px;
     margin: 0 0;
-    height: 1190px;
+    height: 1080px;
+    top: 217px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .roadMapInnerWrapper:after{
+    right: none;
+    left: 4px;
+    margin: 0 0;
+    height: 1180px;
     top: 217px;
   }
 }

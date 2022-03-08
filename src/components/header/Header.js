@@ -15,7 +15,7 @@ const Header = () => {
       setHamburger("true");
     }
   };
- 
+
   useEffect(() => {
     document.addEventListener("scroll", () => {
       let listener = null;
@@ -46,6 +46,11 @@ const Header = () => {
             <div className={styles.navbar}>
               <ul className={styles.navbarUl}>
                 <li className={styles.navbarItems}>
+                  <HashLink to='/#pt'>
+                    Partnership
+                  </HashLink>
+                </li>
+                <li className={styles.navbarItems}>
                   <HashLink to='/#about'>
                     About
                   </HashLink>
@@ -75,11 +80,7 @@ const Header = () => {
                     Team
                   </HashLink>
                 </li>
-                <li className={styles.navbarItems}>
-                  <HashLink to='/#pt'>
-                    Partnership
-                  </HashLink>
-                </li>
+
               </ul>
               <ul className={styles.hamUl}>
                 <li>
@@ -118,9 +119,15 @@ const Header = () => {
               {hamburger === "true" ? (
                 <div className={styles.wrapper}>
                   <ul className={styles.sideBarUl}>
+                    <li className={styles.navbarItemsAg}
+                      style={{ margin: "20px 0 !important" }}
+                    >
+                      <HashLink to='/#pt'>
+                        Partnership
+                      </HashLink>
+                    </li>
                     <li
                       className={styles.navbarItemsAg}
-                      style={{ margin: "20px 0 !important" }}
                     >
                       <HashLink to='/#about'>
                         About
@@ -177,6 +184,14 @@ const Header = () => {
                       className={styles.navbarItemsAg}
                       style={{ margin: "20px 0 !important" }}
                     >
+                      <HashLink to='/#pt'>
+                        Partnership
+                      </HashLink>
+                    </li>
+
+                    <li
+                      className={styles.navbarItemsAg}
+                    >
                       <HashLink to='/#about'>
                         About
                       </HashLink>
@@ -207,11 +222,7 @@ const Header = () => {
                         Team
                       </HashLink>
                     </li>
-                    <li className={styles.navbarItemsAg}>
-                      <HashLink to='/#pt'>
-                        Partnership
-                      </HashLink>
-                    </li>
+
                     <li style={{ textAlign: "center" }}>
                       <button className={styles.connectWalBtn1}>
                         <a
