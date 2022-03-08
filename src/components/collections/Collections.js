@@ -1,10 +1,17 @@
 import React from "react";
 import styles from "./collection.module.css";
+import lion from '../../assets/images/Group 13@2x.png'
 const Collections = () => {
   return (
     <div className={styles.collection} id="cl">
+
       <div className={styles.collectionBg}>
-        <div className="container">
+        {/* <div className={styles.imagewww}>
+          <img src={lion} alt='lion' />
+        </div> */}
+        <img src={lion} alt='lion' />
+
+        <div className={styles.container}>
           <div className={styles.collectionInner}>
             <h2>COLLECTIONS</h2>
             <h3>DUBAI RICH NFT</h3>
@@ -37,6 +44,7 @@ const Collections = () => {
               <input type="number" placeholder="1"></input>
               <button>MINT NOW</button>
             </div>
+
           </div>
         </div>
       </div>

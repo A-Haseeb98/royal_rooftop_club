@@ -3,6 +3,8 @@ import styles from "./Header.module.css";
 import Logo from "../../assets/images/Group 1@2x.png";
 import pdfFile from "../../assets/pdf/RBC.pdf";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+
 const Header = () => {
   const [scrollState, setScrollState] = useState();
   const [hamburger, setHamburger] = useState("false");
@@ -13,34 +15,7 @@ const Header = () => {
       setHamburger("true");
     }
   };
-  const scrolls = () => {
-    const anchor = document.querySelector("#pt");
-    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
-  };
-  const scrollToAbout = () => {
-    const anchor = document.querySelector("#about");
-    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
-  };
-  const scrollToUtility = () => {
-    const anchor = document.querySelector("#rd");
-    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
-  };
-  const scrollToRarity = () => {
-    const anchor = document.querySelector("#cl");
-    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
-  };
-  const scrollToTeam = () => {
-    const anchor = document.querySelector("#faq");
-    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
-  };
-  const scrollUsage = () => {
-    const anchor = document.querySelector("#gh");
-    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
-  };
-  const scrollT = () => {
-    const anchor = document.querySelector("#tt");
-    anchor.scrollIntoView({ behavior: "smooth", block: "center" });
-  };
+ 
   useEffect(() => {
     document.addEventListener("scroll", () => {
       let listener = null;
@@ -71,59 +46,39 @@ const Header = () => {
             <div className={styles.navbar}>
               <ul className={styles.navbarUl}>
                 <li className={styles.navbarItems}>
-                  <Link className={styles.navbarLink} to="/" onClick={scrolls}>
-                    Partnership
-                  </Link>
-                </li>
-                <li className={styles.navbarItems}>
-                  <Link
-                    className={styles.navbarLink}
-                    to="/"
-                    onClick={scrollToAbout}
-                  >
+                  <HashLink to='/#about'>
                     About
-                  </Link>
+                  </HashLink>
                 </li>
                 <li className={styles.navbarItems}>
-                  <Link
-                    className={styles.navbarLink}
-                    to="/"
-                    onClick={scrollToUtility}
-                  >
-                    Roadmap
-                  </Link>
-                </li>
-                <li className={styles.navbarItems}>
-                  <Link
-                    className={styles.navbarLink}
-                    to="/"
-                    onClick={scrollToRarity}
-                  >
+                  <HashLink to='/#cl'>
                     Collections/Mint
-                  </Link>
+                  </HashLink>
                 </li>
                 <li className={styles.navbarItems}>
-                  <Link
-                    className={styles.navbarLink}
-                    to="/"
-                    onClick={scrollToTeam}
-                  >
-                    FAQ
-                  </Link>
+                  <HashLink to='/#rd'>
+                    Roadmap
+                  </HashLink>
                 </li>
                 <li className={styles.navbarItems}>
-                  <Link
-                    className={styles.navbarLink}
-                    to="/"
-                    onClick={scrollUsage}
-                  >
+                  <HashLink to='/#gh'>
                     Giveaways
-                  </Link>
+                  </HashLink>
                 </li>
                 <li className={styles.navbarItems}>
-                  <Link className={styles.navbarLink} to="/" onClick={scrollT}>
+                  <HashLink to='/#faq'>
+                    FAQ
+                  </HashLink>
+                </li>
+                <li className={styles.navbarItems}>
+                  <HashLink to='/#tt'>
                     Team
-                  </Link>
+                  </HashLink>
+                </li>
+                <li className={styles.navbarItems}>
+                  <HashLink to='/#pt'>
+                    Partnership
+                  </HashLink>
                 </li>
               </ul>
               <ul className={styles.hamUl}>
@@ -167,117 +122,40 @@ const Header = () => {
                       className={styles.navbarItemsAg}
                       style={{ margin: "20px 0 !important" }}
                     >
-                      <Link
-                        className={styles.navbarLink}
-                        to="/"
-                        onClick={scrolls}
-                      >
-                        Partnership
-                      </Link>
-                    </li>
-                    <li className={styles.navbarItemsAg}>
-                      <Link
-                        className={styles.navbarLink}
-                        to="/"
-                        onClick={scrollToAbout}
-                      >
+                      <HashLink to='/#about'>
                         About
-                      </Link>
+                      </HashLink>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link
-                        className={styles.navbarLink}
-                        to="/"
-                        onClick={scrollToUtility}
-                      >
-                        Roadmap
-                      </Link>
-                    </li>
-                    <li className={styles.navbarItemsAg}>
-                      <Link
-                        className={styles.navbarLink}
-                        to="/"
-                        onClick={scrollToRarity}
-                      >
+                      <HashLink to='/#cl'>
                         Collections/Mint
-                      </Link>
+                      </HashLink>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link
-                        className={styles.navbarLink}
-                        to="/"
-                        onClick={scrollToTeam}
-                      >
-                        FAQ
-                      </Link>
+                      <HashLink to='/#rd'>
+                        Roadmap
+                      </HashLink>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link
-                        className={styles.navbarLink}
-                        to="/"
-                        onClick={scrollUsage}
-                      >
+                      <HashLink to='/#gh'>
                         Giveaways
-                      </Link>
+                      </HashLink>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link
-                        className={styles.navbarLink}
-                        to="/"
-                        onClick={scrollT}
-                      >
-                        Team
-                      </Link>
+                      <HashLink to='/#faq'>
+                        FAQ
+                      </HashLink>
                     </li>
-                    {/* <li className={styles.navbarItemsAg}>
-                      <div className={styles.socialLinks}>
-                        <div
-                          className={styles.socialLinksInnergg}
-                          style={{ marginRight: "11px" }}
-                        >
-                          <a
-                            href="https://www.twitch.com/ICPNETWORK"
-                            style={{ color: "#fff" }}
-                          >
-                            <i className="fab fa-discord"></i>
-                          </a>
-                        </div>
-                        <div
-                          className={styles.socialLinksInnergg}
-                          style={{ marginRight: "11px" }}
-                        >
-                          <a
-                            href="https://www.facebook.com/INSANECLOWNPOSSE"
-                            style={{ color: "#fff" }}
-                          >
-                            <i className="fab fa-twitter"></i>
-                          </a>
-                        </div>
-
-                        <div
-                          className={styles.socialLinksInnergg}
-                          style={{ marginRight: "11px" }}
-                        >
-                          <a
-                            href="https://www.instagram.com/therealicp/?hl=en"
-                            style={{ color: "#fff" }}
-                          >
-                            <i className="fab fa-instagram"></i>
-                          </a>
-                        </div>
-                        <div
-                          className={styles.socialLinksInnergg}
-                          style={{ marginRight: "11px" }}
-                        >
-                          <a
-                            href="https://www.youtube.com/channel/UC1kxQJwhVuZyheS1XKpzAHQ"
-                            style={{ color: "#fff" }}
-                          >
-                            <i className="fa fa-envelope"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </li> */}
+                    <li className={styles.navbarItemsAg}>
+                      <HashLink to='/#tt'>
+                        Team
+                      </HashLink>
+                    </li>
+                    <li className={styles.navbarItemsAg}>
+                      <HashLink to='/#pt'>
+                        Partnership
+                      </HashLink>
+                    </li>
                     <li style={{ textAlign: "center" }}>
                       <button className={styles.connectWalBtn1}>
                         <a href={pdfFile} target={"_blank"} rel="noreferrer">
@@ -299,93 +177,45 @@ const Header = () => {
                       className={styles.navbarItemsAg}
                       style={{ margin: "20px 0 !important" }}
                     >
-                      <Link className={styles.navbarLink} to="/">
-                        Partnership
-                      </Link>
-                    </li>
-                    <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
+                      <HashLink to='/#about'>
                         About
-                      </Link>
+                      </HashLink>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
-                        Roadmap
-                      </Link>
-                    </li>
-                    <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
+                      <HashLink to='/#cl'>
                         Collections/Mint
-                      </Link>
+                      </HashLink>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
-                        FAQ
-                      </Link>
+                      <HashLink to='/#rd'>
+                        Roadmap
+                      </HashLink>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
+
+                      <HashLink to='/#gh'>
                         Giveaways
-                      </Link>
+                      </HashLink>
                     </li>
                     <li className={styles.navbarItemsAg}>
-                      <Link className={styles.navbarLink} to="/">
-                        Team
-                      </Link>
+                      <HashLink to='/#faq'>
+                        FAQ
+                      </HashLink>
                     </li>
-                    {/* <li className={styles.navbarItemsAg}>
-                      <div className={styles.socialLinks}>
-                        <div
-                          className={styles.socialLinksInnergg}
-                          style={{ marginRight: "11px" }}
-                        >
-                          <a
-                            href="https://www.twitch.com/ICPNETWORK"
-                            style={{ color: "#fff" }}
-                          >
-                            <i className="fab fa-discord"></i>
-                          </a>
-                        </div>
-                        <div
-                          className={styles.socialLinksInnergg}
-                          style={{ marginRight: "11px" }}
-                        >
-                          <a
-                            href="https://www.facebook.com/INSANECLOWNPOSSE"
-                            style={{ color: "#fff" }}
-                          >
-                            <i className="fab fa-twitter"></i>
-                          </a>
-                        </div>
-                        <div
-                          className={styles.socialLinksInnergg}
-                          style={{ marginRight: "11px" }}
-                        >
-                          <a
-                            href="https://www.instagram.com/therealicp/?hl=en"
-                            style={{ color: "#fff" }}
-                          >
-                            <i className="fab fa-instagram"></i>
-                          </a>
-                        </div>
-                        <div
-                          className={styles.socialLinksInnergg}
-                          style={{ marginRight: "11px" }}
-                        >
-                          <a
-                            href="https://www.youtube.com/channel/UC1kxQJwhVuZyheS1XKpzAHQ"
-                            style={{ color: "#fff" }}
-                          >
-                            <i className="fa fa-envelope"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </li> */}
+                    <li className={styles.navbarItemsAg}>
+                      <HashLink to='/#tt'>
+                        Team
+                      </HashLink>
+                    </li>
+                    <li className={styles.navbarItemsAg}>
+                      <HashLink to='/#pt'>
+                        Partnership
+                      </HashLink>
+                    </li>
                     <li style={{ textAlign: "center" }}>
                       <button className={styles.connectWalBtn1}>
                         <a
                           href={pdfFile} target={"_blank"} rel="noreferrer"
-
                         >
                           WHITEPAPER
                         </a>

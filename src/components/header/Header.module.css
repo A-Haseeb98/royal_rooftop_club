@@ -180,17 +180,19 @@ label span {
   background-color: rgb(0, 174, 239);
   transition: ease-in-out 1s;
 }
+a,a:hover, a:focus, a:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
 .navbarItemsAg, .navbarItems{
-  color: white;
+  color: white ;
 }
 .navbarItems:hover,.navbarItemsAg:hover, .navbarItems:focus, .navbarItems:active, .navbarItemsAg:focus, .navbarItemsAg:active{
   color: rgb(0, 174, 239);
 }
 
-a:hover, a:focus, a:active {
-  text-decoration: none !important;
-  color: inherit !important;
-}
+
+
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.95);

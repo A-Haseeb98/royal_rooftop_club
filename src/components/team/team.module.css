@@ -49,8 +49,11 @@
 .footerIconContainer{
   margin-top: -15px;
 }
+.footerIconContainer a {
+  color: inherit;
+}
 .footerIcon{
-  color: #fff;
+  color: #fff !important;
   font-size: 22px;
 }
 .footerIconContainer a:hover,.footerIconContainer a:focus,.footerIconContainer a:active {

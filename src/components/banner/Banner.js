@@ -8,7 +8,7 @@ const Banner = () => {
     anchor.scrollIntoView({ behavior: "smooth", block: "center" });
   };
   return (
-    <div className={styles.banner} id="pt">
+    <div className={styles.banner} >
       <div className={styles.bannerVid}>
         <video playsInline loop autoPlay='true' muted>
           <source src={bannerVid} type="video/mp4" />

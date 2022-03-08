@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./partnership.module.css";
 const Partnership = () => {
   return (
-    <div className={styles.partnership}>
+    <div id='pt' className={styles.partnership}>
       <div className="container">
         <div className={styles.partnershipInner}>
           <h2>PARTNERSHIP & COLLABORATION</h2>

@@ -34,19 +34,7 @@ const GiveawayAndfaq = () => {
     center: true
   };
 
-  //  dots={false} loop margin={10} item={3} center={true}
-
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  // const settings = {
-  //   className: "center",
-  //   centerMode: true,
-  //   centerPadding: "1px",
-  //   infinite: true,
-  //  centerPadding: "60px",
-  //   slidesToShow: 3,
-  //   speed: 1000,
-  // };
-  // useEffect(() => {}, [settings]);
+  
 
   return (
     <>
@@ -85,7 +73,7 @@ const GiveawayAndfaq = () => {
             </div>
           </div>
         </div>
-        <div className={styles.faq} id="faq">
+        <div className={styles.faq} >
           <div className="container">
 
 
@@ -124,11 +112,7 @@ const GiveawayAndfaq = () => {
             </div>
 
 
-
-
-
-
-            <div className={styles.faqAccordian}>
+            <div id="faq" className={styles.faqAccordian}>
               <h2 className={styles.faqHeader}>FAQ</h2>
               <Accordion defaultActiveKey="0" flush>
                 <Accordion.Item eventKey="0">
@@ -164,6 +148,35 @@ const GiveawayAndfaq = () => {
                     You will be able to mint a Dubai Rich NFT on our website when minting goes live. Using the link http://royalrooftopclub.com
                   </Accordion.Body>
                 </Accordion.Item>
+                <Accordion.Item eventKey="7">
+                  <Accordion.Header>
+                    Why should i join the Dubai Rich Club whitelist?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Getting on the whitelist will give you the possibility to
+                    mint up to (2) Dubai rich NFT's before the public mint. In addition, you
+                    will be paying lower mint fees if you are whitelisted as compared to
+                    public minting
+                    s</Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="6">
+                  <Accordion.Header>
+                    How do i get whitelisted for early access?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Whitelist spots will be given away in the discord, followed by some stipulated conditions.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="5">
+                  <Accordion.Header>
+
+                    How do i enter the giveaways?
+
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Potential holders who will be minting from our collection will be directed via Discord to submit their wallet address(s) prior to mint. A snapshot of original holders will be archived after mint. collectors must hold and not sell if they want to participate in all 3 major Giveaways.
+                  </Accordion.Body>
+                </Accordion.Item>
                 <Accordion.Item eventKey="4">
                   <Accordion.Header>
                     How do i know i won a giveaway?
@@ -181,35 +194,8 @@ const GiveawayAndfaq = () => {
                     (NOTE) Each wallet address can only win 1 Giveaway.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="5">
-                  <Accordion.Header>
-                    
-                    How do i enter the giveaways?
 
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Potential holders who will be minting from our collection will be directed via Discord to submit their wallet address(s) prior to mint. A snapshot of original holders will be archived after mint. collectors must hold and not sell if they want to participate in all 3 major Giveaways.
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="6">
-                  <Accordion.Header>
-                    How do i get whitelisted for early access?
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Whitelist spots will be given away in the discord, followed by some stipulated conditions.
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="7">
-                  <Accordion.Header>
-                    Why should i join the Dubai Rich Club whitelist?
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Getting on the whitelist will give you the possibility to
-                    mint up to (2) Dubai rich NFT's before the public mint. In addition, you
-                    will be paying lower mint fees if you are whitelisted as compared to
-                    public minting
-                    s</Accordion.Body>
-                </Accordion.Item>
+
               </Accordion>
             </div>
           </div>
