@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./collection.module.css";
-import lion from '../../assets/images/Group 13@2x.png'
+import lion from '../../assets/images/qqq.png'
 const Collections = () => {
   return (
     <div className={styles.collection} id="cl">
