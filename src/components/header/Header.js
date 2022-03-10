@@ -14,7 +14,8 @@ const Header = () => {
     } else {
       setHamburger("true");
     }
-  };
+  }; 
+  
 
   useEffect(() => {
     document.addEventListener("scroll", () => {

@@ -39,6 +39,7 @@
   cursor: pointer;
   position: absolute;
   top: 50% !important;
+  z-index: 3333 !important;
 }
 .owl-carousel .owl-prev.disabled,
 .owl-carousel .owl-next.disabled {
