@@ -107,19 +107,7 @@ const GiveawayAndfaq = () => {
                     <source src={tDubai} type="video/mp4" />
                   </video>
                 </div>
-                <div class='item'>
-                  <img src={oculus} alt="" className={styles.img} />
-                </div>
-                <div class='item'>
-                  <video autoPlay muted loop className={styles.img1}>
-                    <source src={gWagon} type="video/mp4" />
-                  </video>
-                </div>
-                <div class='item'>
-                  <video autoPlay muted loop className={styles.img1}>
-                    <source src={tDubai} type="video/mp4" />
-                  </video>
-                </div>
+                
               </OwlCarousel>
 
             </div>
