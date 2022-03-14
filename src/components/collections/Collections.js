@@ -30,7 +30,7 @@ const Collections = () => {
               applicable in the Royal rooftop club. Anyone who gets the NFT with
               plate number one (1) will pay the same amount as one who gets 250.
               The only advantage the holder of plate number 1 NFT has over
-              others is when selling off the NFT on NFTs platform like Opensea,
+              others is when selling off the NFT on NFTs platform like OpenSea,
               which might attract the attention of high net-worth individuals.
               But on the Royal rooftop club, all our NFTs holders are given the
               same privileges.
