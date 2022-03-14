@@ -187,7 +187,7 @@ const GiveawayAndfaq = () => {
                     Giveaways will be held in a Live format for transparency reasons. All Holders will be notified to tune in live for each giveaway.
                     <br />
                     <br />
-                    Winners will go through a verification process using their wallet address(s) submitted via Discord and snapshot followed by item activity check on Open Open Sea.
+                    Winners will go through a verification process using their wallet address(s) submitted via Discord and snapshot followed by item activity check on OpenSea.
                     <br />
                     <br />
                     Winners will then be contacted via discord to finalize details. NFT's of the winners will also be uniquely displayed on our website.

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Header.module.css";
 import Logo from "../../assets/images/Group 1@2x.png";
-import pdfFile from "../../assets/pdf/RBC.pdf";
+import pdfFile from "../../assets/pdf/pdf.pdf";
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
